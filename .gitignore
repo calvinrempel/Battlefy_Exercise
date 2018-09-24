@@ -1,3 +1,5 @@
 /api_playground/node_modules
 output
 /api_playground/properties.json
+/api-server/node_modules
+/api-server/properties.json

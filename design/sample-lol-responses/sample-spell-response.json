@@ -1,0 +1,121 @@
+{
+    "id": 14,
+    "name": "Ignite",
+    "description": "Ignites target enemy champion, dealing 80-505 true damage (depending on champion level) over 5 seconds, grants you vision of the target, and reduces healing effects on them for the duration.",
+    "tooltip": "Ignite deals <span class=\"colorFEFCFF\">{{ f1 }}</span> true damage to target enemy champion over 5 seconds, grants you vision of the target and applies Grievous Wounds for the duration.<br /><br /><rules>(Grievous Wounds reduces healing effects by 40%. This vision does not reveal stealthed enemies.)</rules>",
+    "maxrank": 1,
+    "cooldown": [
+        210
+    ],
+    "cooldownBurn": "210",
+    "cost": [
+        0
+    ],
+    "costBurn": "0",
+    "datavalues": {},
+    "effect": [
+        null,
+        [
+            5
+        ],
+        [
+            11
+        ],
+        [
+            5
+        ],
+        [
+            100
+        ],
+        [
+            0
+        ],
+        [
+            0
+        ],
+        [
+            0
+        ],
+        [
+            0
+        ],
+        [
+            0
+        ],
+        [
+            0
+        ]
+    ],
+    "effectBurn": [
+        null,
+        "5",
+        "11",
+        "5",
+        "100",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+    ],
+    "vars": [
+        {
+            "link": "@player.level",
+            "coeff": [
+                70,
+                90,
+                110,
+                130,
+                150,
+                170,
+                190,
+                210,
+                230,
+                250,
+                270,
+                290,
+                310,
+                330,
+                350,
+                370,
+                390,
+                410
+            ],
+            "key": "f1"
+        }
+    ],
+    "key": "SummonerDot",
+    "summonerLevel": 9,
+    "modes": [
+        "CLASSIC",
+        "ODIN",
+        "TUTORIAL",
+        "ARAM",
+        "ASCENSION",
+        "FIRSTBLOOD",
+        "ASSASSINATE",
+        "URF",
+        "ARSR",
+        "DOOMBOTSTEEMO",
+        "ONEFORALL",
+        "GAMEMODEX",
+        "PRACTICETOOL"
+    ],
+    "costType": "No Cost",
+    "maxammo": "-1",
+    "range": [
+        600
+    ],
+    "rangeBurn": "600",
+    "image": {
+        "full": "SummonerDot.png",
+        "sprite": "spell0.png",
+        "group": "spell",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+    },
+    "resource": "No Cost"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "api_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaguejs": "^1.10.1",
+    "prompt": "^1.0.0"
+  }
+}
